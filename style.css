@@ -1,0 +1,49 @@
+body{
+    background-image: url(images/background.jpg);
+}
+.navbar-brand, .navbar-brand:hover{
+    font-family: 'Pacifico';
+    font-size: 2.5rem;
+    color: black;
+}
+.main-heading{
+    text-align: center;
+    margin-top: 3%;
+    background-color: rgba(77, 75, 75, 0.13);
+    padding: 5% 0;
+    border-radius: 31px;
+}
+.btn{
+    margin: 5% auto;
+    border-radius: 50px;
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+h1{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 4rem;
+    margin: 0 5%;
+}
+@media (max-width: 991px) and (min-width: 767px) {
+    h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 766px) {
+    h1{
+        font-size: 2.4rem;
+        font-weight: 400;
+    }
+}
+@media (max-width: 598px) {
+    .main-heading{
+        background-color: rgba(0, 0, 0, 0);
+        margin-top: 14%;
+    }
+}
